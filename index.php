@@ -17,6 +17,7 @@ if (isset($_COOKIE['screen_name'])) {
             <script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
             <link rel="stylesheet" type="text/css" href="./honoka/css/bootstrap.min.css">
             <script src="./honoka/js/bootstrap.min.js" ></script>
+            <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="xoj6defaed1cnvr"></script>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>TweetVideoDownload</title>

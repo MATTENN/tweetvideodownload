@@ -40,7 +40,7 @@ if (isset($response->extended_entities->media[0]->video_info->variants[0]->url))
       $loop_continue = FALSE;
       foreach ($video_url as $key => $value) {
             if ($loop_continue == FALSE && !strpos($value, "mp4") === FALSE) {
-                  echo '<div class="col-sm-4"><div class="thumbnail"><video src="'.$value.'" class="img-responsive" ></video><div class="caption">'.$value.'<p><a href="'.$value.'" class="btn btn-default" role="button">Download</a></p></div></div></div>';
+                  echo '<div class="col-sm-4"><div class="thumbnail"><video src="'.$value.'" class="img-responsive" ></video><div class="caption">'.$value.'<p><a href="'.$value.'" class="dropbox-saver"></a><a href="'.$value.'" class="btn btn-default" role="button">Download</a></p></div></div></div>';
                   $loop_continue = TRUE;
             }
       }
